@@ -1,0 +1,56 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "scheduleName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "3",
+            "fieldValidateRulesMaxlength": "20"
+        },
+        {
+            "fieldName": "runEvery",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "timeToRun",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "pattern"
+            ],
+            "fieldValidateRulesPattern": "(^[0-2][0-4]:[0-5][0-9]$)"
+        },
+        {
+            "fieldName": "weekDay",
+            "fieldType": "WeekDay",
+            "fieldValues": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+        },
+        {
+            "fieldName": "lastRun",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "createdAt",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "updatedAt",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20170228182144",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "scheduler",
+    "pagination": "pagination",
+    "microserviceName": "scheduler",
+    "searchEngine": "elasticsearch"
+}
