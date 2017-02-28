@@ -139,7 +139,3 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
-/src/main/docker/jhipster-registry.yml
-/src/main/docker/central-server-config/docker-config/application.yml
-/src/main/docker/central-server-config/localhost-config/application.yml
-

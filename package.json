@@ -1,13 +1,5 @@
 {
   "devDependencies": {
-    "generator-jhipster-module": "1.1.0",
-    "generator-jhipster-docker": "2.2.0",
-    "generator-jhipster-ci": "1.0.0",
-    "generator-jhipster-bootstrap-material-design": "3.5.1",
-    "generator-jhipster-nav-element": "0.1.9",
-    "generator-jhipster-swagger2markup": "1.1.0",
-    "generator-jhipster-swagger-cli": "2.0.5",
-    "generator-jhipster-transasia": "1.0.6",
     "generator-jhipster": "4.0.6"
   }
 }
